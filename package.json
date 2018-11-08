@@ -1,0 +1,28 @@
+{
+  "name": "liqd-ui-avatar",
+  "description": "Avatar generator",
+  "version": "1.0.0",
+  "author": "radixxko",
+  "license": "MIT",
+  "main": "lib/avatar.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/radixxko/liqd-ui-avatar.git"
+  },
+  "keywords": [
+    "avatar",
+    "generator",
+    "liqd"
+  ],
+  "dependencies": {
+    "liqd-options": "^1.0.6"
+  },
+  "devDependencies": {}
+}
