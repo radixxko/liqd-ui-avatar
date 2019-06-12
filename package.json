@@ -1,7 +1,7 @@
 {
   "name": "liqd-ui-avatar",
   "description": "Avatar generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "radixxko",
   "license": "MIT",
   "main": "lib/avatar.js",
@@ -22,7 +22,7 @@
     "liqd"
   ],
   "dependencies": {
-    "liqd-options": "^1.0.7"
+    "liqd-options": "^1.0.8"
   },
   "devDependencies": {}
 }
